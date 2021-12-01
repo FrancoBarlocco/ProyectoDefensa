@@ -43,8 +43,6 @@ namespace Ucu.Poo.Defense
                 return i.Material.Name;
             }
             
-            return "no";
-            
         }
     }
 }
