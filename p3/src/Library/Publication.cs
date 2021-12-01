@@ -33,5 +33,9 @@ namespace Ucu.Poo.Defense
         {
             this.items.Remove(item);
         }
+        public string AsText()
+        {
+            return this.EndDate.ToString();
+        }
     }
 }

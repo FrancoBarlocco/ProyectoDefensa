@@ -7,7 +7,7 @@ namespace Ucu.Poo.Defense
         public string Name { get; set; }
 
         public MaterialType Type { get; set; }
-        List<Material> Matdangerous = new List<Material>();¿
+        List<Material> Matdangerous = new List<Material>();
 
         public bool IsDangerous{get; set;}
 
@@ -15,9 +15,10 @@ namespace Ucu.Poo.Defense
         public Material(string name, MaterialType type)
         {
             this.Name = name;
-            if (type.IsDangerous == true)
+
+            if(IsDangerous is true)
             {
-                this.Type = type;
+                this.IsDangerous = true;
             }
 
         }
