@@ -11,15 +11,7 @@ namespace Ucu.Poo.Defense
         public MaterialType(string names, bool isDangerous)
         {
             this.Name = names;
-            if (this.IsDangerous == true)
-            {
-                this.IsDangerous = true;
-            }
-            else
-            {
-                this.IsDangerous = false;
-
-            }
+            this.IsDangerous = isDangerous;
             
         }
 
