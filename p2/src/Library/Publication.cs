@@ -36,7 +36,15 @@ namespace Ucu.Poo.Defense
 
         public string AsText()
         {
-            return this.EndDate.ToString();
+            foreach(PublicationItem i in items)
+            {
+                i.Quantity.ToString();
+                i.Price.ToString();
+                return i.Material.Name;
+            }
+            
+            return "no";
+            
         }
     }
 }
